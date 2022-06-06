@@ -1,0 +1,36 @@
+{
+  "name": "market_status_api",
+  "version": "1.0.0",
+  "description": "public API REST that retrieves market information for trading",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamartincelis/rather_labs_challenge.git"
+  },
+  "author": "Javier Martín",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamartincelis/rather_labs_challenge/issues"
+  },
+  "homepage": "https://github.com/jamartincelis/rather_labs_challenge#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
